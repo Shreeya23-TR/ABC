@@ -1,0 +1,16 @@
+MI User Request Raised by Business/User.
+Development Team Creates Task
+DevOps Team Creates Managed Identity
+Managed Identity Handed Over to DB Team
+Assign Application Level Permissions Configure Azure Key Vault Access
+Permission Requirement?
+DB Team Grants:Connect, Select, Insert,Update,Delete, Execute DB Team Grants: Alter + Delete(Table LevelOperation)
+Application Runs in AKS
+Application Working?
+✅  Flow Successful ❌  Troubleshooting Required
+Check AKS Permissions (Service Account & MIAssignment) Verify Correct Database Connection(DB Exists&Correct Name) Validate Azure Key Vault Access (Secrets &AccessPolicy) Check Environment Variables(Client ID,ResourceIDs,GUIDs)
+Fix Configuration
+Assign AKS Level Permission
+CRUD Special Case
+Yes No
+MI CREATION & TROUBLESHOOTING
